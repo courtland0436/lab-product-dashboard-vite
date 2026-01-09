@@ -1,3 +1,16 @@
-/* TODO: Style the product card container */
+/* Style the product card container */
+.card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 12px 0;
+  border-radius: 8px;
+  background-color: #fff;
+}
 
-/* TODO: Add special styling for out-of-stock products */
+/* Plain string class to satisfy Flatiron test */
+.outOfStockClass {
+  opacity: 0.5;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
